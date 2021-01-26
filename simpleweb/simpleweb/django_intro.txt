@@ -1,0 +1,9 @@
+to create django project with django
+>django-admin startproject simpleweb
+>python manage.py runserver
+python manage.py migrate
+python manage.py makemigrations
+python manage.py createsuperuser
+
+username vickytilotia
+pass admin
