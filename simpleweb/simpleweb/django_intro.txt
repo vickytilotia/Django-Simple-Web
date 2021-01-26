@@ -1,8 +1,9 @@
 to create django project with django
 >django-admin startproject simpleweb
 >python manage.py runserver
-python manage.py migrate
-python manage.py makemigrations
+            
+python manage.py makemigrations     # create change and store in file
+python manage.py migrate            # apply the pending changes created be makemigration
 python manage.py createsuperuser
 
 username vickytilotia
