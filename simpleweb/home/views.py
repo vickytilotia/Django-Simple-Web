@@ -27,3 +27,9 @@ def contact(request):
     
     
     return render(request, 'contact.html')
+
+
+
+def form(request):
+    # return HttpResponse("this is a servicespage")
+    return render(request, 'form.html')
